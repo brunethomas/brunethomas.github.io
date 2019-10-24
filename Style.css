@@ -1,105 +1,111 @@
 /* @import url(font-awesome.min.css); */
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
-	body {
-		/* background-color: #0B004C; */
-		background-image: url("images/radial-background.png");
-		background-size: cover;
-		margin: 0px;
-		height: 100%;
-		overflow: hidden;
+body {
+  /* background-color: #0B004C; */
+  background-image: url("images/radial-background.png");
+  background-size: cover;
+  margin: 0px;
+  height: 100%;
+  overflow: hidden;
+}
 
-	}
-
-	body>h1{
-		font-size: 1.5em;
-		font-style: normal;
-		font-family: "Montserrat";
-		color: #fff;
-		position: relative;
-		left: 30px;
-		top: 30px;
-		-moz-text-size-adjust: auto;
-	}
-	#lottie{
-		/* background-color:#0B004C; */
-		background-image: url("images/radial-background.png");
-		background-size: cover;
-		width:100%;
-		height:100%;
-		display:block;
-		/* overflow: hidden; */
-		/* transform: translate3d(0,0,0); */
-		text-align: center;
-		justify-content: center;
-		opacity: 1;
-	}
-	footer {
-		font-size: 1em;
-		font-family: "Montserrat";
-		font-style: italic;
-		color: #fff;
-		position: absolute;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		text-align:left;
-		padding-left: 2em;
-		padding-right: 2em;
-	  }
-	#footerBox {
-		display: flex;
-		flex: 1;
-		flex-direction: row;
-		justify-content: space-between;
-		padding-right: 3em;
-		padding-left: 3em;
-	  }
-	#scrollDiv {
-		height: 100%;
-		overflow-y: scroll;
-	  }
-	#mainTitle {
-		font-size: 3em;
-		font-family: "Montserrat";
-		color: #fff;
-		padding-bottom: 0px;
-		padding-top: 30px;
-		padding-left: 30px;
-		margin-bottom: 30px;
-	  }
-	#regularText {
-		font-size: 1em;
-		font-family: "Montserrat";
-		color: #fff;
-		padding-left: 30px;
-		padding-right: 30px;
-		text-align: justify;
-	  }
-	 #secondaryTitle{
-		font-size: 1.5em;
-		font-family: "Montserrat";
-		color:#4dcfb1;
-		padding-left: 30px;
-		padding-top: 10px;
-		padding-bottom: 0px;
-	  }
-	#tabText {
-		font-size: 1em;
-		font-family: "Montserrat";
-		color: #fff;
-		padding-top: 1em;
-		padding-left: 10em;
-		padding-bottom:0em;
-		text-align: justify;
-		}
-	#iconText {
-			font-size: 1em;
-			font-family: "Montserrat";
-			color:#4dcfb1;
-			text-decoration: none;
-			padding-top: 0.5em;
-			}
-		#resizeImage {
-				width: 80vw;
-				}
+body > h1 {
+  font-size: 1.5em;
+  font-style: normal;
+  font-family: "Montserrat";
+  color: #fff;
+  position: relative;
+  left: 30px;
+  top: 30px;
+  -moz-text-size-adjust: auto;
+}
+#lottie {
+  /* background-color:#0B004C; */
+  background-image: url("images/radial-background.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  /* overflow: hidden; */
+  /* transform: translate3d(0,0,0); */
+  text-align: center;
+  justify-content: center;
+  opacity: 1;
+}
+footer {
+  font-size: 1em;
+  font-family: "Montserrat";
+  font-style: italic;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+#footerBox {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 3em;
+  padding-left: 3em;
+}
+#scrollDiv {
+  height: 100%;
+  overflow-y: scroll;
+}
+#mainTitle {
+  font-size: 3em;
+  font-family: "Montserrat";
+  color: #fff;
+  padding-bottom: 0px;
+  padding-top: 30px;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+#regularText {
+  font-size: 1em;
+  font-family: "Montserrat";
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+}
+#secondaryTitle {
+  font-size: 1.5em;
+  font-family: "Montserrat";
+  color: #4dcfb1;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+#centeredTitle {
+  font-size: 1.5em;
+  font-family: "Montserrat";
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#tabText {
+  font-size: 1em;
+  font-family: "Montserrat";
+  color: #fff;
+  padding-top: 1em;
+  padding-left: 10em;
+  padding-bottom: 0em;
+  text-align: justify;
+}
+#iconText {
+  font-size: 1em;
+  font-family: "Montserrat";
+  color: #4dcfb1;
+  text-decoration: none;
+  padding-top: 0.5em;
+}
+#resizeImage {
+  width: 80vw;
+}
