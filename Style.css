@@ -66,6 +66,21 @@ footer {
   padding-left: 30px;
   margin-bottom: 30px;
 }
+#topTitle {
+  font-size: 2em;
+  font-family: "Montserrat";
+  color: #fff;
+  text-align: center;
+  padding-top: 3vh;
+  padding-bottom: 0;
+}
+#bottomTitle {
+  font-size: 1.3em;
+  font-family: "Montserrat";
+  color: #8675D7;
+  text-align: center;
+  padding-top: 1vh;
+}
 #description {
   font-size: 1.5em;
   font-family: "Montserrat";
