@@ -19,6 +19,14 @@ h1 {
   top: 30px;
   -moz-text-size-adjust: auto;
 }
+#floatBck {
+  background-image: url("images/DawnFloatReflectionPurple.png");
+  background-color: #1A156A;
+  background-size: cover;
+  margin: 0px;
+  height: 100%;
+  overflow: hidden;
+}
 #lottie {
   /* background-color:#0B004C; */
   background-image: url("images/radial-background.png");
@@ -66,12 +74,27 @@ footer {
   padding-left: 30px;
   margin-bottom: 30px;
 }
+#linkTitle {
+  font-family: "Montserrat";
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+
+}
 #topTitle {
   font-size: 2em;
   font-family: "Montserrat";
   color: #fff;
   text-align: center;
   padding-top: 3vh;
+  padding-bottom: 0;
+}
+#subTitle {
+  font-size: 1.5em;
+  font-family: "Montserrat";
+  color: #fff;
+  text-align: center;
+  padding-top: 0vh;
   padding-bottom: 0;
 }
 #bottomTitle {
@@ -138,4 +161,30 @@ footer {
 #resizeImageDesktop {
   width: 25vw;
   margin-right: 7vw;
+}
+#bckImage {
+  width: 40vw;
+  position: absolute;
+  opacity: 0.15;
+  left: 30%;
+  margin-top: 7vh;
+}
+#greyText {
+  font-size: 1.5em;
+  font-family: "Montserrat";
+  color: #838a98;
+  padding-top: 5vh;
+  padding-left: 3vw;
+}
+#dayText {
+  font-size: 2.5em;
+  font-family: "Montserrat";
+  color: #4dcfb1;
+  padding:0;
+}
+#dateText {
+  font-size: 2em;
+  font-family: "Montserrat";
+  color: #838a98;
+  padding:0;
 }
