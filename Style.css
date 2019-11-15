@@ -165,7 +165,7 @@ footer {
 #bckImage {
   width: 40vw;
   position: absolute;
-  opacity: 0.15;
+  opacity: 0.05;
   left: 30%;
   margin-top: 7vh;
 }
