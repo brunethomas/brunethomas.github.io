@@ -108,7 +108,7 @@ footer {
   font-size: 1.5em;
   font-family: "Montserrat";
   color: #fff;
-  padding-left: 2vw;
+  padding-left: 0vw;
 }
 #regularText {
   font-size: 1em;
@@ -173,7 +173,7 @@ footer {
   font-size: 1.5em;
   font-family: "Montserrat";
   color: #838a98;
-  padding-top: 5vh;
+  padding-top: 8vh;
   padding-left: 3vw;
 }
 #dayText {
