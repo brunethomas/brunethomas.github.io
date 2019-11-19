@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.5vw;
   font-family: "Montserrat";
   color: #ffffff;
   position: relative;
@@ -46,19 +46,19 @@ footer {
   bottom: 0;
   left: 0;
   text-align: left;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
 #footerBox {
   display: flex;
   flex: 1;
   flex-direction: row;
   justify-content: space-between;
-  padding-right: 3em;
-  padding-left: 3em;
-  font-size: 1em;
+  align-items: flex-end;
+  padding-right: 0vw;
+  padding-left: 0vw;
+  font-size: 1vw;
   font-family: "Montserrat";
-  font-style: italic;
   color: #fff;
 }
 #scrollDiv {
@@ -66,7 +66,7 @@ footer {
   overflow-y: scroll;
 }
 #mainTitle {
-  font-size: 3em;
+  font-size: 3vw;
   font-family: "Montserrat";
   color: #fff;
   padding-bottom: 0px;
@@ -82,7 +82,7 @@ footer {
 
 }
 #topTitle {
-  font-size: 2em;
+  font-size: 2vw;
   font-family: "Montserrat";
   color: #fff;
   text-align: center;
@@ -90,7 +90,7 @@ footer {
   padding-bottom: 0;
 }
 #subTitle {
-  font-size: 1.5em;
+  font-size: 1.5vw;
   font-family: "Montserrat";
   color: #fff;
   text-align: center;
@@ -98,20 +98,20 @@ footer {
   padding-bottom: 0;
 }
 #bottomTitle {
-  font-size: 1.3em;
+  font-size: 1.3vw;
   font-family: "Montserrat";
   color: #8675D7;
   text-align: center;
   padding-top: 1vh;
 }
 #description {
-  font-size: 1.5em;
+  font-size: 1.25vw;
   font-family: "Montserrat";
   color: #fff;
-  padding-left: 0vw;
+  padding-left: 2vw;
 }
 #regularText {
-  font-size: 1em;
+  font-size: 1vw;
   font-family: "Montserrat";
   color: #fff;
   padding-left: 30px;
@@ -119,7 +119,7 @@ footer {
   text-align: justify;
 }
 #secondaryTitle {
-  font-size: 1.5em;
+  font-size: 1.5vw;
   font-family: "Montserrat";
   color: #4dcfb1;
   padding-left: 30px;
@@ -127,20 +127,20 @@ footer {
   padding-bottom: 0px;
 }
 #greenTitle {
-  font-size: 2.5em;
+  font-size: 2vw;
   font-family: "Montserrat";
   color: #4dcfb1;
   padding-bottom: 1vh;
 }
 #centeredTitle {
-  font-size: 1.5em;
+  font-size: 1.5vw;
   font-family: "Montserrat";
   color: #ffffff;
   padding-top: 2vh;
   padding-bottom: 3vh;
 }
 #tabText {
-  font-size: 1em;
+  font-size: 1vw;
   font-family: "Montserrat";
   color: #fff;
   padding-top: 1em;
@@ -149,7 +149,7 @@ footer {
   text-align: justify;
 }
 #iconText {
-  font-size: 1em;
+  font-size: 1vw;
   font-family: "Montserrat";
   color: #4dcfb1;
   text-decoration: none;
@@ -165,25 +165,25 @@ footer {
 #bckImage {
   width: 40vw;
   position: absolute;
-  opacity: 0.05;
+  opacity: 0.1;
   left: 30%;
   margin-top: 7vh;
 }
 #greyText {
-  font-size: 1.5em;
+  font-size: 1.5vw;
   font-family: "Montserrat";
   color: #838a98;
   padding-top: 8vh;
   padding-left: 3vw;
 }
 #dayText {
-  font-size: 2.5em;
+  font-size: 2vw;
   font-family: "Montserrat";
   color: #4dcfb1;
   padding:0;
 }
 #dateText {
-  font-size: 2em;
+  font-size: 1.5vw;
   font-family: "Montserrat";
   color: #838a98;
   padding:0;
