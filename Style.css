@@ -183,11 +183,14 @@ footer {
   left: 30%;
   margin-top: 7vh;
 }
+#posterImage {
+  width: 18vw;
+}
 #greyText {
   font-size: 1.5vw;
   font-family: "Montserrat";
   color: #838a98;
-  padding-top: 8vh;
+  padding-top: 5vh;
   padding-left: 3vw;
 }
 #dayText {
