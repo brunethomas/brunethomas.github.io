@@ -139,6 +139,13 @@ footer {
   padding-top: 2vh;
   padding-bottom: 3vh;
 }
+#centeredTitleSmall {
+  font-size: 1vw;
+  font-family: "Montserrat";
+  color: #ffffff;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
 #mobileCenteredTitle {
   font-size: 4vw;
   font-family: "Montserrat";
@@ -161,6 +168,13 @@ footer {
   color: #4dcfb1;
   text-decoration: none;
   padding-top: 0.5em;
+}
+#iconTextSmall {
+  font-size: 0.7vw;
+  font-family: "Montserrat";
+  color: #4dcfb1;
+  text-decoration: none;
+  padding-top: 0.3em;
 }
 #mobileIconText {
   font-size: 3vw;
