@@ -78,8 +78,23 @@
 
     anim = lottie.loadAnimation(params);
 
+    var logo = document.getElementById('lottie');
+    var headertext = document.getElementById('texthead');
+    var contact = document.getElementById('contact');
+
+    headertext.style.display="none";
+    contact.style.display="none";
+
+    anim.onComplete = function () {
+
+        headertext.style.display = "inline";
+        contact.style.display = "inline";
+        logo.style.display="none";
+        // window.location = "Welcome.html";
+    };
+
 </script>
-<script>
+<!-- <script>
 // document.getElementById("lottie").addEventListener("click", document.getElementById("lottie").style.display="block");
     var logo = document.getElementById('lottie');
     var headertext = document.getElementById('texthead');
@@ -88,14 +103,20 @@
     headertext.style.display="none";
     contact.style.display="none";
 
-    logo.onclick = function () {
+    logo.onLoopComplete = function () {
 
         headertext.style.display = "inline";
         contact.style.display = "inline";
         logo.style.display="none";
         // window.location = "Welcome.html";
     };
-</script>
+//     logo.addEventListener('complete', function(){
+//         headertext.style.display = "inline";
+//         contact.style.display = "inline";
+//         logo.style.display="none";
+// });
+
+</script> -->
 
 </body>
 
