@@ -218,6 +218,7 @@ footer {
   opacity: 0.1;
   left: 30%;
   margin-top: 7vh;
+  pointer-events: none;
 }
 #posterImage {
   width: 18vw;
