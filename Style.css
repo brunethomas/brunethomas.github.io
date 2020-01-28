@@ -61,6 +61,12 @@ footer {
   font-family: "Montserrat";
   color: #fff;
 }
+#centerContent {
+ display: flex;
+ flex: 1;
+ flex-direction: column;
+ align-items: center;
+}
 #scrollDiv {
   height: 100%;
   overflow-y: scroll;
@@ -124,7 +130,7 @@ footer {
   font-size: 1.25vw;
   font-family: "Montserrat";
   color: #fff;
-  padding-left: 2vw;
+  padding-left: 0vw;
 }
 #regularText {
   font-size: 1vw;
