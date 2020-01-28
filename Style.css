@@ -61,6 +61,12 @@ footer {
   font-family: "Montserrat";
   color: #fff;
 }
+#footerText {
+  font-size: 0.7vw;
+  font-family: "Montserrat";
+  color: #838a98;
+  font-style: italic;
+}
 #centerContent {
  display: flex;
  flex: 1;
@@ -127,7 +133,7 @@ footer {
   padding-top: 1vh;
 }
 #description {
-  font-size: 1.25vw;
+  font-size: 1.15vw;
   font-family: "Montserrat";
   color: #fff;
   padding-left: 0vw;
@@ -155,18 +161,18 @@ footer {
   padding-bottom: 1vh;
 }
 #centeredTitle {
-  font-size: 1.5vw;
+  font-size: 1vw;
   font-family: "Montserrat";
   color: #ffffff;
   padding-top: 2vh;
-  padding-bottom: 3vh;
+  padding-bottom: 1vh;
 }
 #centeredTitleSmall {
   font-size: 1vw;
   font-family: "Montserrat";
   color: #ffffff;
   padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-bottom: vh;
 }
 #mobileCenteredTitle {
   font-size: 4vw;
@@ -185,7 +191,7 @@ footer {
   text-align: justify;
 }
 #iconText {
-  font-size: 1vw;
+  font-size: 0.8vw;
   font-family: "Montserrat";
   color: #8675D7;
   text-decoration: none;
