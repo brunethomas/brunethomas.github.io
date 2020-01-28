@@ -76,7 +76,7 @@ footer {
 }
 #linkTitle {
   font-family: "Montserrat";
-  color: #fff;
+  color: #8675D7;
   text-align: center;
   text-decoration: none;
 
@@ -88,6 +88,22 @@ footer {
   text-align: center;
   padding-top: 3vh;
   padding-bottom: 0;
+}
+#topTitleIndex {
+  font-size: 3vw;
+  font-family: "Montserrat";
+  color: #fff;
+  text-align: center;
+  padding-top: 4vh;
+  padding-bottom: 0vh;
+}
+#bottomTitleIndex {
+  font-size: 2vw;
+  font-family: "Montserrat";
+  color: #fff;
+  text-align: center;
+  padding-top: 0vh;
+  padding-bottom: 1vh;
 }
 #subTitle {
   font-size: 1.5vw;
@@ -165,7 +181,7 @@ footer {
 #iconText {
   font-size: 1vw;
   font-family: "Montserrat";
-  color: #4dcfb1;
+  color: #8675D7;
   text-decoration: none;
   padding-top: 0.5em;
 }
@@ -187,7 +203,7 @@ footer {
   width: 80vw;
 }
 #resizeImageDesktop {
-  width: 25vw;
+  width: 20vw;
   margin-right: 7vw;
 }
 #bckImage {
